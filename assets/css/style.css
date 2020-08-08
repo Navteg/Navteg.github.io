@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvatica", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -138,6 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu * {
+  transition: 2s ease-in-out;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -182,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 0;
   background: none;
   font-size: 24px;
-  transition: all 0.4s;
+  transition: all 1s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
